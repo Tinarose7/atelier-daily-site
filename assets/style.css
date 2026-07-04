@@ -135,6 +135,7 @@ article.post ul, article.post ol { margin: 0 0 20px 24px; }
 article.post li { margin-bottom: 10px; }
 article.post a { color: var(--espresso); text-decoration-color: var(--gold); text-underline-offset: 3px; }
 article.post a:hover { color: var(--gold); }
+article.post a.btn-store, article.post a.btn-store:hover { color: var(--white); }
 article.post .divider { text-align: center; color: var(--gold); letter-spacing: .6em; margin: 36px 0; }
 .disclosure {
   font-size: 13px; color: var(--espresso-soft); background: var(--cream-deep);
