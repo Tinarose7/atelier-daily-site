@@ -138,6 +138,15 @@ article.post a { color: var(--espresso); text-decoration-color: var(--gold); tex
 article.post a:hover { color: var(--gold); }
 article.post a.btn-store, article.post a.btn-store:hover { color: var(--white); }
 article.post .divider { text-align: center; color: var(--gold); letter-spacing: .6em; margin: 36px 0; }
+article.post figure.article-img { margin: 0 0 44px; }
+article.post figure.article-img img {
+  display: block; width: 100%; height: auto; border-radius: 14px;
+  border: 1px solid rgba(194,163,107,.35);
+}
+article.post figure.article-img figcaption {
+  margin-top: 10px; text-align: center; font-size: 12.5px;
+  letter-spacing: .08em; color: var(--espresso-soft);
+}
 .disclosure {
   font-size: 13px; color: var(--espresso-soft); background: var(--cream-deep);
   border-left: 3px solid var(--gold); padding: 12px 16px; border-radius: 6px;
